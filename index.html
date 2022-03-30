@@ -4,21 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <title> Welcome To Campus Hype Crew </title>
+    <link rel="stylesheet" href="css/shared/shared.css">
+    <link rel="stylesheet" href="css/shared/header.css">
+    <link rel="stylesheet" href="css/shared/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    
 </head>
 <body>
-    <div class="navbar">
-        <div  class="nav-img"></div>
-        <ul class="nav-keys">
-            <li>Home</li>
-            <li>About</li>
-            <li>News</li>
-            <li>Ads</li>
-        </ul>
-        <input class="nav-search" type="text">
+
+    <header class="navbar">
+        <div class="navbar-container clear-float">
+            <figure class="image-container">
+                <img src="images/company_logo.png" alt="Chc Logo">
+            </figure>
+            <figure class="menu-links">
+                <ul class="links">
+                    <li class="link"> <a href=""> Home </a> </li>
+                    <li class="link"> <a href=""> About </a> </li>
+                    <li class="link"> <a href=""> Magazines </a> </li>
+                    <li class="link"> <a href=""> Blog </a> </li>
+                </ul>
+            </figure>
+            <figure class="search-container">
+                <input type="text" id="search-button" placeholder="Search...">
+            </figure>
+        </div>
+    </header>
+
+    <section class="intro">
+        
+    
+        <div class="carousel-container">
+
+            <i class="fa fa-arrow-left" aria-hidden="true" id="prevBtn"></i>
+            <i class="fa fa-arrow-right" aria-hidden="true" id="nextBtn"></i>
+
+            <div class="carousel-slide">
+                <img src="images/5.jpg" id="lastClone" alt="image 5 clone">
+                <img src="images/1.JPG" alt="image 1">
+                <img src="images/2.jpg" alt="image 2">
+                <img src="images/3.jpg" alt="image 3">
+                <img src="images/4.jpg" alt="image 4">
+                <img src="images/5.jpg" alt="image 5">
+                <img src="images/1.jpg" id="firstClone" alt="image 1 clone">
+            </div>
+
+        </div>
+
+    </section>
         
     </div>
+    
+    <script src="js/slider.js"></script>
+    
 </body>
 </html>

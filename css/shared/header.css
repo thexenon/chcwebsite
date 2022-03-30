@@ -1,0 +1,66 @@
+.navbar{
+    padding: 20px 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.navbar .navbar-container{
+    width: 100%;
+    margin: auto;
+}
+
+/* begin logo */
+
+.navbar .image-container{
+    width: 20%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navbar .image-container img{
+    width: 35px;
+    display: inline-block;
+}
+
+/* end logo */
+
+/* begin menu links */
+
+.navbar .menu-links{
+    width: 60%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navbar .menu-links .links .link{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+.navbar .menu-links .links .link a{
+    text-decoration: none;
+    color: #000;
+    font: normal normal bold 15px/1.4em "Roboto", Helvetica, Arial, sans-serif; 
+}
+
+
+ /* end menu links */
+
+ /* begin search bar */
+
+.navbar .menu-links .search-container{
+    width: 20%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.search-container #search-button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+ /* end search bar */
