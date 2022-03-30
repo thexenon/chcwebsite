@@ -1,3 +1,3 @@
 # chcwebsite
 
-This is the official website for Campus Hype Crew
+# This is the official website for Campus Hype Crew
